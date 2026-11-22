@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiendas D1 | Ahorra más en cada compra</title>
+  <link rel="icon" type="image/png" href="Imagenes/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="header" id="inicio">
+    <a href="#inicio" class="logo"><img src="imagenes/logo d1.png" alt="Logo D1"></a>
+    <input class="buscador" type="text" placeholder="¿Qué estás buscando?">
+    <nav class="menu">
+      <a href="#inicio">INICIO</a>
+      <a href="#productos">PRODUCTOS</a>
+      <a href="#ofertas">OFERTAS</a>
+      <a href="#calidad">CALIDAD D1</a>
+      <a href="#tiendas">TIENDAS</a>
+      <a href="#contacto" class="btn-contacto">CONTACTO</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+
+    <!-- BANNER -->
+    <section class="banner">
+      <div class="banner-texto">
+        <h1>¡Ahorra más<br>en cada compra!</h1>
+        <p>Encuentra productos para tu día a día a precios que te gustan.</p>
+        <a href="#ofertas" class="btn-rojo">VER OFERTAS</a>
+      </div>
+      <img src="imagenes/fondo encabezado.png" alt="Canasta D1 con productos">
+      <div class="puntos"><span class="activo"></span><span></span><span></span></div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro">
+      <h3>Frutas y verduras <small>(54 productos)</small></h3>
+      <p>Descubre Lo Nuevo de D1 y mantente al día con los productos que transforman tu mercado. Encuentra las últimas novedades en alimentos de despensa con la calidad que amas y los precios bajos que solo Tiendas D1 te ofrece. ¡No te pierdas los nuevos productos que están llegando a tu tienda favorita en Colombia!</p>
+    </section>
+
+    <!-- CATEGORÍAS -->
+    <section class="categorias" id="productos">
+      <h2>NUESTRO PRODUCTOS</h2>
+      <p class="sub">Explora nuestras categorías y encuentra todo lo que necesitas.</p>
+      <div class="cat-lista">
+        <a href="#ofertas" class="cat"><div class="circulo"><img src="imagenes/Collage de carnes frías VacanTeke.png" alt="Carnes frías"></div><span>Carnes frías y delikatessen</span></a>
+        <a href="#ofertas" class="cat"><div class="circulo"><img src="imagenes/Café y bebidas colombianas en estudio.png"></div><span>Bebidas</span></a>
+        <a href="#ofertas" class="cat"><div class="circulo"><img src="imagenes/Productos Little Angels para bebé.png"></div><span>Infantil</span></a>
+        <a href="#ofertas" class="cat"><div class="circulo"><img src="imagenes/Leche Latti y Huevos Frescos.png"></div><span>Lacteo y huevos</span></a>
+        <a href="#ofertas" class="cat"><div class="circulo"><img src="imagenes/Cervezas y vinos con sello 18+.png"></div><span>Licores y vino</span></a>
+        <a href="#ofertas" class="cat"><div class="circulo"><img src="imagenes/Paquetes de alimentos para perros y gatos.png"></div><span>Mascotas</span></a>
+      </div>
+    </section>
+
+    <!-- OFERTAS -->
+    <section class="ofertas" id="ofertas">
+      <h2>OFERTAS Y PROMOCIONES</h2>
+      <p class="sub">Aproveche los mejores precios en productos seleccionados.</p>
+      <div class="grid-productos">
+        <article class="card"><img src="imagenes/Toallas de Cocina Rendy Premium.png" alt="Toalla de cocina"><small>RENDY</small><h4>Toalla Cocina Triple Hoja Rendy 80 Hojas</h4><small>PLU: 12006461</small><p class="precio">$ 3.650</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Trío XIRA de Perlas Aromáticas.png" alt="Perlas de fragancia"><small>BONAROPA</small><h4>Perlas de Fragancia Bonaropa</h4><small>285 Gr</small><p class="precio">$ 9.990</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Paquete de queso mozzarella en tajadas.png" alt="Queso mozzarella"><small>LATTI</small><h4>Queso Mozzarella Tajado Latti</h4><small>400 Grs</small><p class="precio">$ 10.500</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Trío de cremas botánicas MILEFIORE.png" alt="Crema de manos"><small>MILEFIORE</small><h4>Crema de Manos Milefiore</h4><small>270 Gr</small><p class="precio">$ 6.990</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Cajas de sueros faciales Delía.png" alt="Suero facial"><small>DELIA</small><h4>Suero Facial Hialuron/Retinol</h4><small>Delia 30 ml</small><p class="precio">$ 19.990</p><button class="btn-agregar">+ AGREGAR</button></article>
+
+        <article class="card"><img src="imagenes/torta navidad.png" alt="Torta de Navidad"><small>HORNEADITOS</small><h4>Torta de Navidad Sabor A Vino</h4><small>400 Gr</small><p class="precio">$ 10.500</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Lechuga Fresca La Huerta.png" alt="Lechuga"><small>LA HUERTA</small><h4>Lechuga Verde Crespa X 180 G</h4><small>PLU: 12005805</small><p class="precio">$ 2.850</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Taburetes plegables de colores pastel.png" alt="Butaco plegable"><small>RED FLAG</small><h4>Butaco Plegable</h4><small>PLU: 12004743</small><p class="precio">$ 19.900</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Botella de vodka Russ Kaya con advertencia 18+.png" alt="Vodka"><small>RUSSKAYA</small><h4>Vodka Russkaya 750 Ml</h4><small>PLU: 12005185</small><p class="precio">$ 39.950</p><button class="btn-agregar">+ AGREGAR</button></article>
+        <article class="card"><img src="imagenes/Bolsa de Pinchos de Pollo Congelados.png" alt="Pinchos de pollo"><small>BRASSET</small><h4>Pinchos de Pollo Apanado Brasset 200 G</h4><small>PLU: 12002327</small><p class="precio">$ 6.600</p><button class="btn-agregar">+ AGREGAR</button></article>
+      </div>
+      <a href="#ofertas" class="btn-rojo centro">VER MÁS PRODUCTOS</a>
+    </section>
+
+    <!-- CALIDAD -->
+    <section class="calidad" id="calidad">
+      <div class="img-titulo">
+        <img src="imagenes/calidad d1.png" alt="Calidad D1">
+        <h3>CALIDAD D1</h3>
+      </div>
+      <div class="calidad-fila">
+        <div class="calidad-texto">
+          <h3>CALIDAD ALTA A PRECIOS MUY BAJOS</h3>
+          <p>Hemos trabajado directamente con nuestros proveedores desde nuestro inicio, para así asegurarnos que están actualizados, tanto en tecnología de procesos como de empaques cumpliendo con las necesidades regulatorias y con las diferentes tendencia de los consumidores, para así comercializar productos seguros, inocuos y de alta calidad. Este trabajo realizado de la mano con el proveedor conlleva a compartir y divulgar experiencias de crecimiento y sostenimiento acelerado garantizando el producto final.</p>
+        </div>
+        <div class="calidad-img">
+          <img src="imagenes/Ciencia de alimentos en el laboratorio.png" alt="Laboratorio de calidad">
+          <a href="#calidad" class="btn-rojo">CONOCE MÁS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIENDAS -->
+    <section class="tiendas" id="tiendas">
+      <div class="img-titulo">
+        <img src="imagenes/nuestra tienda.png" alt="Tienda D1">
+        <h3 class="derecha">NUESTRAS TIENDAS</h3>
+      </div>
+      <h3 class="busca">Busca tu tienda D1 más cercana</h3>
+      <a href="#tiendas" class="btn-rojo">POR DEPARTAMENTO O CUIDAD</a>
+      <h4 class="depto">Departamento</h4>
+      <div class="selects">
+        <select><option>Elige un departamento</option><option>Antioquia</option><option>Cundinamarca</option><option>Valle del Cauca</option></select>
+        <select><option>Seleccionar cuidad</option><option>Medellín</option><option>Bogotá</option><option>Cali</option></select>
+      </div>
+      <div class="tiendas-fila">
+        <div class="lista-tiendas">
+          <div class="tienda"><h5>MED BELEN PARQUE</h5><p>CALLE 81 #76-90<br>Lunes a sabados de 7:00am a 9:00pm | Domingos y festivos 8:00am a 9:00pm</p></div>
+          <div class="tienda"><h5>MED LA 80 X 30</h5><p>CR 81 # 28 A - 90<br>Lunes a Sábado de 8:00 AM a 9:00 PM | Domingos y Festivos de 8:00 AM a 9:00 PM</p></div>
+          <div class="tienda"><h5>MED BELEN LA 78</h5><p>CR 78 30 18<br>Lunes a Sábado de 8:00 AM a 9:00 PM | Domingos y Festivos de 8:00 AM a 9:00 PM</p></div>
+        </div>
+        <div class="mapa"><img src="imagenes/mapa.png" alt="Mapa de tiendas"></div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="beneficios">
+      <div><img src="imagenes/Paquete en manos.png" alt=""><h5>ENVÍOS A TODO EL PAÍS</h5><p>Disfruta de los mejores productos D1 y recíbelos en la puerta de tu casa.</p></div>
+      <div><img src="imagenes/Escudo rojo con candado.png" alt=""><h5>COMPRAS SEGURAS</h5><p>Contamos con un sistema seguro para la protección de tus datos personales.</p></div>
+      <div><img src="imagenes/Operador de soporte con auriculares.png" alt=""><h5>LLÁMANOS</h5><p>Conoce nuestras líneas de atención telefónica. Para resolver tus inquietudes.</p></div>
+    </section>
+
+    <!-- SUSCRIBETE -->
+    <section class="suscribete">
+      <img src="imagenes/Equipo unido en el supermercado.png" alt="Equipo D1">
+      <div class="susc-form">
+        <h3>SUSCRÍBETE</h3>
+        <p>Déjanos tu correo y recibe promociones únicas</p>
+        <input type="email" placeholder="Correo electrónico">
+        <label class="autoriza"><input type="checkbox"> Autorizo de manera previa, expresa e informada a D1 S.A.S. a tratar mis datos personales para las finalidades establecidas en la Autorización de Tratamiento de Datos Personales y de conformidad con la Política de Tratamiento de Datos Personales de D1 S.A.S.</label>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+ <footer class="footer" id="contacto">
+  <h3>Atención al cliente</h3>
+  <div class="contacto-datos">
+    <span>📞 01 8000 120201</span>
+    <span>✉️ atencion.cliente@d1.com.co</span>
+  </div>
+  <h3>Síguenos</h3>
+  <div class="redes">
+    <a href="#"><img src="imagenes/iconos redes.png" alt="Redes sociales D1"></a>
+  </div>
+  <h3>Descarga nuestra app</h3>
+  <div class="apps">
+    <a href="#"><img src="imagenes/Insignias de descarga en tiendas móviles.png" alt="Google Play y App Store"></a>
+  </div>
+  <img class="logo-footer" src="imagenes/logo d1.png" alt="Logo D1">
+</footer>
+
+</body>
+</html>
